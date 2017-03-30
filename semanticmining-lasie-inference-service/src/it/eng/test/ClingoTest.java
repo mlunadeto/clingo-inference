@@ -38,7 +38,7 @@ import it.eng.util.RestUtil;
 public class ClingoTest {
 
 	private static String path2Cligno4=PathLoader.isWindows()?
-			PathLoader.loadPath("clingo4.exe"):PathLoader.loadPath("file di clingo per lunux");
+			PathLoader.loadPath("clingo4.exe"):PathLoader.loadPath("clingo4Linux");
 			private static String path2decAxioms=PathLoader.loadPath("dec.lp");
 			private static String path2ClaudiaLawrence=PathLoader.loadPath("ClaudiaLawrence7.lp");
 			private static String path2LinkAndEntities=PathLoader.loadPath("LinkAndEntities.lp");
