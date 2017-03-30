@@ -1,0 +1,213 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000a1",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#actor",
+	"submitter": "Lasie Investigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Joan Lawrence",
+	 "category":
+    [
+       
+    ],
+
+    "isAccepted": true,
+	"metaData": 
+	[
+		{
+			"metaName": "FirstName",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Joan",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "LastName",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Lawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Eyes",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Brown",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Age",
+			"metaType": "http://lasie.eng.it/DataType#Integer",
+			"metaValue": "42",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Hair",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Light Ash Brown",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Born",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "27 February 1974",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "DisappearedDate",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "18 March 2009",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "BornLocation",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "East Riding of YorkShire",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Nation",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "England",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Ethnicity",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "White British",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Occupation",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Chef",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "HomeTown",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Heworth",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "HomeNation",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "England",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Father",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Peter Lawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Mother",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Joan Lawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Sister",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Ali Sims",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "WikiPage",
+			"metaType": "http://lasie.eng.it/DataType#URL",
+			"metaValue": "https://en.wikipedia.org/wiki/Disappearance_of_Claudia_Lawrence ",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Blog",
+			"metaType": "http://lasie.eng.it/DataType#URL",
+			"metaValue": "http://www.northyorkshire.police.uk/claudialawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "Twitter",
+			"metaType": "http://lasie.eng.it/DataType#URLArray",
+			"metaValue": "https://twitter.com/Find_Claudia,https://twitter.com/hashtag/claudialawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "FaceBook",
+			"metaType": "http://lasie.eng.it/DataType#URLArray",
+			"metaValue": "https://www.facebook.com/groups/66459644188,https://www.facebook.com/groups/83398900828",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "UserId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "11654",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "GroupId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "12354",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "CompanyId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "10157",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "mongoMimeType",
+			"metaType": "http://lasie.eng.it/Datatype#MimeType",
+			"metaValue": "person",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		}
+	]
+}

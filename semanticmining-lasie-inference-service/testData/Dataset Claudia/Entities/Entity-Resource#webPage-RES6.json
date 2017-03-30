@@ -1,0 +1,54 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-20000000res6",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#webPage",
+	  "category":
+    [
+       
+    ],
+
+    "isAccepted": true,
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "wikipedia page",
+	"metaData": [{
+		"metaName": "AssetType",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "web Page",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Source",
+		"metaType": "http://www.yorkpress.co.uk/news/11365991.Landlord_angry_over_Claudia_arrest/",
+		"metaGenerator": "SUB",
+		"metaValue": "web Page",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	}]
+}

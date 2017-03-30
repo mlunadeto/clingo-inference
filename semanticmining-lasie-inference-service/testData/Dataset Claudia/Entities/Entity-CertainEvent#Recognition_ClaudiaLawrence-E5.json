@@ -1,0 +1,88 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000e5",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Claudia Lawrence has been recognized by Peter Red outside Claudia's home at Mar 19, 2009 06.45",
+	"category": ["http://is3lab.eng.it/ontologies/lasie/category.owl#PersonRecognition"],
+	"isAccepted": true,
+	"metaData": [{
+		"metaName": "PersonRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "8326736a-8a94-4d82-a599-2000000000a0",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Location",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "outside Claudia's home",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lat",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "53.967303",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lon",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "-1.062216",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "StartTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237445100",
+		"metaGenerator": "SUB",
+		"metaDate": 1237445100
+	},
+	{
+		"metaName": "EndTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237453200",
+		"metaGenerator": "SUB",
+		"metaDate": 1237445110
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "mongoMimeType",
+		"metaType": "String",
+		"metaValue": "event",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	}]
+}

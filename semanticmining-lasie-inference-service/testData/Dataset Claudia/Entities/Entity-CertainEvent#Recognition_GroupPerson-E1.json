@@ -1,0 +1,104 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000e1",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": " A group of person have been recognized in University of York",
+	"category":["http://is3lab.eng.it/ontologies/lasie/category.owl#Recognition"],
+  "isAccepted":true,
+	"metaData": 
+	[
+
+		{
+			"metaName": "PersonRecognized",
+			"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+			"metaValue": "[8326736a-8a94-4d82-a599-2000000000a09,8326736a-8a94-4d82-a599-2000000000a10]",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},{
+			"metaName": "GroupRecognized",
+			"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+			"metaValue": "8326736a-8a94-4d82-a599-2000000000g001",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"metaName": "Location",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "University of York",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "Lat",
+			"metaType": "http://lasie.eng.it/DataType#Float",
+			"metaValue": "53.945331",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "Lon",
+			"metaType": "http://lasie.eng.it/DataType#Float",
+			"metaValue": "-1.055995",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "StartTime",
+			"metaType": "http://lasie.eng.it/DataType#Timestamp",
+			"metaValue": "1236934800",
+			"metaGenerator": "SUB",
+			"metaDate": 1237387140
+		},
+
+		{
+			"metaName": "EndTime",
+			"metaType": "http://lasie.eng.it/DataType#Timestamp",
+			"metaValue": "1236945600",
+			"metaGenerator": "SUB",
+			"metaDate": 1237387150
+		},
+
+		{
+			"version": 0,
+			"metaName": "UserId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "11654",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "GroupId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "12354",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "CompanyId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "10157",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "mongoMimeType",
+			"metaType": "String",
+			"metaValue": "event",
+			"metaGenerator": "SUB",
+			"metaDate": 1465978229829
+		}
+	]
+}

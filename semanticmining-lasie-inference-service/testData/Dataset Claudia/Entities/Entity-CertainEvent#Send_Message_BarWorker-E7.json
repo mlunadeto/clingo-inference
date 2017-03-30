@@ -1,0 +1,102 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000e7",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "The last text message from her was sent at 8:23 p.m., and her last received message, from a bar worker in Cyprus, was at 9:12 p.m.",
+	"category": ["http://is3lab.eng.it/ontologies/lasie/category.owl#Send"],
+	"isAccepted": true,
+	"metaData": [{
+		"metaName": "PersonRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "[8326736a-8a94-4d82-a599-2000000000a5,8326736a-8a94-4d82-a599-2000000000a0]",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "ObjectRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "8326736a-8a94-4d82-a599-2000000000o2",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Location",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "Cyprus",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "LocationImage",
+		"metaType": "http://lasie.eng.it/DataType#ImageUrl",
+		"metaValue": "https://www.google.it/search?q=cyprus&client=firefox-b&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjH7b2R-fDOAhUJWx4KHeuvBMsQ_AUICCgB&biw=1366&bih=657#imgrc=x3I8a7O-xgqPrM%3A",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lat",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "53.945331",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lon",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "-1.055995",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "StartTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237251600",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "EndTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237316400",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "ProcessingTime",
+		"metaType": "String",
+		"metaValue": "1",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	}]
+}

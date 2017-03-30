@@ -1,0 +1,38 @@
+{
+  "uuid": "8326736a-8a94-4d82-a599-20000000r037",
+  "category": "http://is3lab.eng.it/ontologies/lasie/model/relation.owl#suggestActor",
+  "submitter": "LasieInvestigator",
+  "submitionDate": 1465122660,
+  "lastModifiedDate": 1465122660,
+  "iconUrl": "",
+  "name": "UC3",
+  "description": "suggest entity A11 to E14",
+  "metaData":[{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	}
+
+],
+  "type": "http://is3lab.eng.it/ontologies/lasie/model/relation.owl#InferredRelation",
+  "isAccepted":true
+}

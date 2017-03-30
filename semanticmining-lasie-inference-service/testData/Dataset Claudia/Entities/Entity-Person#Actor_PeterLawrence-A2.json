@@ -1,0 +1,69 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000a2",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#actor",
+	"submitter": "Lasie Investigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Peter Lawrence",
+	 "category":
+    [
+       
+    ],
+
+    "isAccepted": true,
+	"metaData": 
+	[
+		{
+			"metaName": "FirstName",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Peter",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"metaName": "LastName",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Lawrence",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "UserId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "11654",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "GroupId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "12354",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "CompanyId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "10157",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "mongoMimeType",
+			"metaType": "String",
+			"metaValue": "person",
+			"metaGenerator": "SUB",
+			"metaDate": 1465978229829
+		}
+	]
+}

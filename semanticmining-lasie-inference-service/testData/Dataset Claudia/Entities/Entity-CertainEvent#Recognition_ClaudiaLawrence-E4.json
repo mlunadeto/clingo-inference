@@ -1,0 +1,95 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000e4",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Claudia Lawrence's car has been recognized in Heworth Road at Mar 18, 2009 21:01",
+	"category": ["http://is3lab.eng.it/ontologies/lasie/category.owl#VehicleRecognition"],
+	"isAccepted": true,
+	"metaData": [{
+		"metaName": "PersonRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "8326736a-8a94-4d82-a599-2000000000a0",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Location",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "Heworth Road",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "LocationImage",
+		"metaType": "http://lasie.eng.it/DataType#ImageUrl",
+		"metaValue": "http://www.netrafficcams.co.uk/sites/default/files/images/cameras/GH_A184E1_0.jpg",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lat",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "53.967303",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "Lon",
+		"metaType": "http://lasie.eng.it/DataType#Float",
+		"metaValue": "-1.062216",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "StartTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237410060",
+		"metaGenerator": "SUB",
+		"metaDate": 1237410060
+	},
+	{
+		"metaName": "EndTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237420740",
+		"metaGenerator": "SUB",
+		"metaDate": 1237410070
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "mongoMimeType",
+		"metaType": "String",
+		"metaValue": "event",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	}]
+}

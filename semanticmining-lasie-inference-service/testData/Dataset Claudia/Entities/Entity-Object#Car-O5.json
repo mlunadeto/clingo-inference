@@ -1,0 +1,76 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-2000000000o5",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#Object",
+	"submitter": "Lasie Investigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Claudia Lawrence's Car",
+	 "category":
+    [
+       
+    ],
+
+    "isAccepted": true,
+	"metaData": 
+	[
+		{
+			"metaName": "Plate",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "123456789",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+{
+			"metaName": "Brand",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "Vauxhall Corsa",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"metaName": "Color",
+			"metaType": "http://lasie.eng.it/DataType#String",
+			"metaValue": "White",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		}
+		,
+
+		{
+			"version": 0,
+			"metaName": "UserId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "11654",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "GroupId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "12354",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "CompanyId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "10157",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "mongoMimeType",
+			"metaType": "String",
+			"metaValue": "object",
+			"metaGenerator": "SUB",
+			"metaDate": 1465978229829
+		}
+	]
+}

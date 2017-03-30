@@ -1,0 +1,88 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-200000000e11",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "A 'left-handed smoker' was seen on a bridge with a woman on the morning Miss Lawrence vanished.The couple were seen by a passing cyclist and were facing each other several feet apart on Melrosegate Bridge.",
+	 "category":["http://is3lab.eng.it/ontologies/lasie/category.owl#Sighting"],
+  "isAccepted":true,
+	"metaData": [
+	{
+		"metaName": "PersonRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "[8326736a-8a94-4d82-a599-2000000000a8,8326736a-8a94-4d82-a599-2000000000a7]",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Location",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "Melrosegate",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "Time",
+		"metaType": "http://lasie.eng.it/DataType#String",
+		"metaValue": "18 march",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "StartTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237533300",
+		"metaGenerator": "SUB",
+		"metaDate": 1237359600
+	},
+	{
+		"metaName": "EndTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1237568400",
+		"metaGenerator": "SUB",
+		"metaDate": 1237359610
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "mongoMimeType",
+		"metaType": "String",
+		"metaValue": "event",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	},
+	{
+		"version": 0,
+		"metaName": "ProcessingTime",
+		"metaType": "String",
+		"metaValue": "1",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	}]
+}
