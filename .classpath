@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container/semanticmining-hybrid-core2-service">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="semanticmining-hybrid-core2-service/WebContent/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/semanticmining-hybrid-graph-injector-test"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/hybridLib/era-pattern.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/guava-r09.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jung-dep/mascoptLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/j3d-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-3d-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-3d-demos-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-jai-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-jai-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-samples-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/vecmath-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Andolfo/Documents/workspace/semanticmining-lasie-inference-service/jung/jungLib/wstx-asl-3.2.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

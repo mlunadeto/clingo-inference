@@ -1,0 +1,89 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-200000000e10",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#CertainEvent",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "'Left-handed' man's DNA on cigarette in Claudia's car",
+	"category": ["http://is3lab.eng.it/ontologies/lasie/category.owl#Finding"],
+	"isAccepted": true,
+	"metaData": [
+	{
+		"metaName": "ObjectRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "[8326736a-8a94-4d82-a599-2000000000o4,8326736a-8a94-4d82-a599-2000000000o5]",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"metaName": "PersonRecognized",
+		"metaType": "http://lasie.eng.it/DataType#ERAEntity",
+		"metaValue": "[8326736a-8a94-4d82-a599-2000000000a7,8326736a-8a94-4d82-a599-2000000000a0]",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+      "version": 0,
+      "metaName": "Lat",
+      "metaType": "http://lasie.eng.it/DataType#Float",
+      "metaValue": "53.960174",
+      "metaGenerator": "SUB",
+      "metaDate": 1465122660
+    },
+    {
+      "version": 0,
+      "metaName": "Lon",
+      "metaType": "http://lasie.eng.it/DataType#Float",
+      "metaValue": "-1.057243",
+      "metaGenerator": "SUB",
+      "metaDate": 1465122660
+    },
+	{
+		"version": 0,
+		"metaName": "ProcessingTime",
+		"metaType": "String",
+		"metaValue": "1",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	},
+	{
+		"metaName": "StartTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1236695460",
+		"metaGenerator": "SUB",
+		"metaDate": 1395187200
+	},
+	{
+		"metaName": "EndTime",
+		"metaType": "http://lasie.eng.it/DataType#Timestamp",
+		"metaValue": "1236704400",
+		"metaGenerator": "SUB",
+		"metaDate": 1395187210
+	},
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	}]
+}

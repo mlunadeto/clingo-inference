@@ -1,0 +1,49 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-20000000g001",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#Group",
+	"submitter": "Lasie Investigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	 "category":
+    [
+      
+    ],
+    "isAccepted": true,
+	"description": "a group of person recognized near Claudia Lawrence",
+	"metaData": [{
+			"version": 0,
+			"metaName": "UserId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "11654",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "GroupId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "12354",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+
+		{
+			"version": 0,
+			"metaName": "CompanyId",
+			"metaType": "http://lasie.eng.it/Datatype#Integer",
+			"metaValue": "10157",
+			"metaGenerator": "SUB",
+			"metaDate": 1465122660
+		},
+		{
+			"version": 0,
+			"metaName": "mongoMimeType",
+			"metaType": "http://lasie.eng.it/Datatype#String",
+			"metaValue": "object",
+			"metaGenerator": "SUB",
+			"metaDate": 1465978229829
+		}]
+}

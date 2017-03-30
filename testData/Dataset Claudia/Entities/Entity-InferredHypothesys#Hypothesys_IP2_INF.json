@@ -1,0 +1,53 @@
+{
+	"uuid": "8326736a-8a94-4d82-a599-200000000ip2",
+	"type": "http://is3lab.eng.it/ontologies/lasie/model/entity.owl#InferredHypothesys",
+	"submitter": "LasieInvestigator",
+	"submitionDate": 1465122660,
+	"lastModifiedDate": 1465122660,
+	"iconUrl": "",
+	"name": "UC3",
+	"description": "Hypothesis 2",
+	"category": ["http://is3lab.eng.it/ontologies/lasie/category.owl#Hypothesis"],
+	"isAccepted": true,
+	"metaData": [
+	{
+		"version": 0,
+		"metaName": "UserId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "11654",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "GroupId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "12354",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "CompanyId",
+		"metaType": "http://lasie.eng.it/Datatype#Integer",
+		"metaValue": "10157",
+		"metaGenerator": "SUB",
+		"metaDate": 1465122660
+	},
+	{
+		"version": 0,
+		"metaName": "mongoMimeType",
+		"metaType": "String",
+		"metaValue": "event",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	},
+	{
+		"version": 0,
+		"metaName": "RelatedToHypothesys",
+		"metaType": "http://lasie.eng.it/Datatype#String",
+		"metaValue": "8326736a-8a94-4d82-a599-200000000ip2",
+		"metaGenerator": "SUB",
+		"metaDate": 1465978229829
+	}]
+}
