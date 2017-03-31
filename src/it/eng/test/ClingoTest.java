@@ -45,8 +45,8 @@ public class ClingoTest {
 			private static String path2ResultsQuestions=PathLoader.loadPath("risultatiDomande.lp");
 			private static String path2RulesQuestions=PathLoader.loadPath("regoleDomande.lp");
 			private static String commandsToQuestions="-n 0  --outf=2";
-			
-						public static String victimUUid;
+
+			public static String victimUUid;
 
 
 			public static void main(String[]args){
@@ -68,9 +68,9 @@ public class ClingoTest {
 
 				boolean noMoreQuestions=false;
 				int counter=0;
-				
-				
-				
+
+
+
 				while(!noMoreQuestions){
 
 					if(counter==0){
@@ -163,19 +163,19 @@ public class ClingoTest {
 									 * Aggiorna l'information Set
 									 */
 									queryPattern.action(informationSet);
-									
+
 									if(queryPattern instanceof QueryBootStrap){
 										victimUUid=((QueryBootStrap) queryPattern).getVictimUuid();
 									}
-									
-										
+
+
 
 									String result;
 									String questionDone;
 									String questionResult;
-									
-									
-									
+
+
+
 									if(queryPattern.isSuccess()){
 										result="true";	
 
@@ -235,18 +235,18 @@ public class ClingoTest {
 						/*
 						 * To do: gestire questa condizione
 						 */
-						
+
 					}
 				}
-						
-				
+
+
 				if(startInvestigation){
 
 					List<String>crimes=new ArrayList<>(Arrays.asList(new String[]{"runAway","kidnapped"}));;
 					informationSet.setCrimes(new HashSet<>(crimes));
-					
+
 					String observations=informationSet.stringToObservation();
-					
+
 					//System.out.println(observations);
 
 					ReaderUtil.getInstance().printOnObservation(path2Observations,observations, false);
@@ -259,7 +259,7 @@ public class ClingoTest {
 							new String[]{path2decAxioms,path2ClaudiaLawrence,path2LinkAndEntities, path2Observations});
 
 					clingoExecutor.runClingo();
-			
+
 					/*
 					 * testo l'output di clingo
 					 */
@@ -302,89 +302,6 @@ public class ClingoTest {
 				}
 
 
-
-				/*
-				 * 2) inserisci le entità prelevate all'interno di un set, in modo da tenere traccia di loro e non dovrele ricreare.
-				 * 
-				 */
-
-
-
-				/*
-				 * 3) tradurle?
-				 */
-
-
-
-
-
-
-
-
-				/*
-				 * Create the investigation
-				 */
-				/*Investigation investigation=new Investigation("Lawrence", Arrays.asList(new String[]{ph8,ph9,ph10,ph11,ph12,ph13,ph14,ph15,ph16,ph17}));
-		/*
-				 * 2) For each sentence get the NLP result and store it into a new String
-				 */
-				/*List<String> NLPResult=new ArrayList<>();
-		String baseURI="http://lasie.innovationengineering.eu/services/rest/text/analyses/perform.json";
-		int i=0;
-		for(String input:investigation.getPhrases()){
-			/*
-				 * Call the Ciapetti's Rest service
-				 */
-				/*		List<Entry<String, String>> form=new ArrayList<>();
-			form.add(new AbstractMap.SimpleEntry<>("analysisTypes", "OAT")); //Object-Action-Tool
-			//form.add(new AbstractMap.SimpleEntry<>("analysisTypes", "NER"));//Named-Entitiy-Relations
-			//form.add(new AbstractMap.SimpleEntry<>("analysisTypes", "STS"));//Suspicious Terms
-			form.add(new AbstractMap.SimpleEntry<>("language", "en"));
-			form.add(new AbstractMap.SimpleEntry<>("content", input));
-			form.add(new AbstractMap.SimpleEntry<>("saveAnalyses", "false"));
-
-			String response=RestClientUtils2.getPOST(baseURI,form);
-
-
-			if(i==6){
-				System.out.println(response);
-			}
-			i++;
-			/*
-				 * Calling the procedure to parse the String
-				 */
-				/*new BuildingRules().parsingJson(response);
-
-
-			/*
-				 * Store the result into the list
-				 */
-				/*			NLPResult.add(response);
-
-		}
-
-		/*
-				 * Parsing the NLP json result
-				 */
-
-
-
-				/*
-				 * 3) Filling the events with results
-				 */
-
-				/*	ClingoExecutor clingoExecutor=new ClingoExecutor(//path2Cligno, commands, new String[]{path2decAxioms/*,path2MissedPersonAxioms/*,
-		,path2DangLevelAxioms, path2DeadAliveAxioms, path2HourMissedAxioms, path2KnowAxioms*//*,path2MissedPersonAxiomsComplete*//*,path2AtAxioms*///,path2ClaudiaLawrence});
-				/*	clingoExecutor.runClingo();
-		System.out.println(clingoExecutor.getOutputDataString());
-
-		/*
-				 * Preleva le informazioni rilevanti e crea un json
-				 * Ogni Answer e' una nuova ipotesi
-				 */
-
-
-
 			}
 
 
@@ -423,6 +340,9 @@ public class ClingoTest {
 
 			}
 
+			
+			
+			
 			/**
 			 * 
 			 * @param clingoExecutor
@@ -464,33 +384,8 @@ public class ClingoTest {
 			}
 
 
+
+
 		
-
-			/**
-			 * 
-			 * @param stringToComplete
-			 * @param list
-			 * @return
-			 */
-			private static String creatingString(String stringToComplete, List<String> list) {
-
-				for(int i=0; i<= list.size()-1;i++){
-					String timeInstance=list.get(i);
-					if(i==list.size()-1){
-						stringToComplete=stringToComplete+timeInstance+").";
-					}else{
-						stringToComplete=stringToComplete+timeInstance+"; ";
-					}
-				}
-
-				return stringToComplete;
-			}
-
-
-
-
-
-
-
 
 }
