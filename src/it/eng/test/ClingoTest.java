@@ -49,9 +49,12 @@ public class ClingoTest {
 			public static String victimUUid;
 
 
-			public static void main(String[]args){
+			public static void main(String[] args) {
+				ClingoTest clingoTest = new ClingoTest();
+				clingoTest.testProcess();
+			}
 
-
+			public void testProcess() {
 
 				//ClingoController clingoController=new ClingoController(path2Cligno4);
 
